@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T14:31:42.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pl82DKiExibgjSE8n-Nr" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T15:04:55.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KK6-1tkBX_qDfEzJZzU9" version="22.1.18" type="github">
   <diagram name="第 1 页" id="5bnzdSQ7di5Hu-kQCLIl">
     <mxGraphModel dx="2261" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-14" value="node" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-90" width="590" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="RGVM73bukpCADxqD2Ha--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v4UVJ5CE6T74EgirfSV9-5" target="v4UVJ5CE6T74EgirfSV9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -82,17 +85,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGVM73bukpCADxqD2Ha--4" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGVM73bukpCADxqD2Ha--4" target="3Vg7I-b_KU2aMFhzw3Iw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-12" value="&lt;b&gt;CR I&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3Vg7I-b_KU2aMFhzw3Iw-11">
+          <mxGeometry x="-0.04" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGVM73bukpCADxqD2Ha--4" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="700" y="40" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fE5z4UuduPDfiOcLxdn-5" value="&lt;h1&gt;kubelet&lt;/h1&gt;&lt;div&gt;与kube-apiserver交互，list-watch机制&lt;/div&gt;&lt;div&gt;1、注册自身到api-server&lt;/div&gt;&lt;div&gt;2、通过apiserver监听etcd目录下资源的增、删、改&lt;/div&gt;&lt;div&gt;3、上报pod的信息、状态&lt;/div&gt;&lt;div&gt;4、通过cAdvisor监控容器和节点的资源&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="750" y="-200" width="220" height="140" as="geometry" />
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4fE5z4UuduPDfiOcLxdn-5" target="3Vg7I-b_KU2aMFhzw3Iw-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4fE5z4UuduPDfiOcLxdn-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RGVM73bukpCADxqD2Ha--4" target="4fE5z4UuduPDfiOcLxdn-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="-30" as="sourcePoint" />
-            <mxPoint x="830" y="-80" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4fE5z4UuduPDfiOcLxdn-5" value="&lt;h1&gt;kubelet&lt;/h1&gt;&lt;div&gt;与kube-apiserver交互，list-watch机制&lt;/div&gt;&lt;div&gt;1、注册自身到api-server&lt;/div&gt;&lt;div&gt;2、通过apiserver监听etcd目录下资源的增、删、改&lt;/div&gt;&lt;div&gt;3、上报pod的信息、状态&lt;/div&gt;&lt;div&gt;4、通过cAdvisor监控容器和节点的资源&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="715" y="-400" width="220" height="140" as="geometry" />
         </mxCell>
         <mxCell id="4fE5z4UuduPDfiOcLxdn-7" value="&lt;h1&gt;controller-manager&lt;/h1&gt;&lt;div&gt;与kube-apiserver交互， 负责系统管理&lt;/div&gt;&lt;div&gt;1、监听资源状态变化，调整资源为期望的状态&lt;/div&gt;&lt;div&gt;2、上报pod的信息、状态&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="-200" width="270" height="130" as="geometry" />
@@ -123,6 +131,30 @@
         </mxCell>
         <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-5" value="&lt;h1&gt;schedule&lt;/h1&gt;&lt;div&gt;&lt;b&gt;scheduler framework&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、支持以插件的形式扩展&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、增加扩展点：基于调度Stage的扩展点&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="-620" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-8" value="&lt;h1&gt;kubelet&lt;/h1&gt;&lt;div&gt;旧版本cAdvisor提供pod的资源使用统计信息， 不会进行持久化只能查询2-3min内的监控数据&lt;/div&gt;&lt;div&gt;新版本：使用metric server提供核心指标和资源使用监控数据&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="715" y="-610" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-10" value="container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-70" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4fE5z4UuduPDfiOcLxdn-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RGVM73bukpCADxqD2Ha--4" target="4fE5z4UuduPDfiOcLxdn-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="-30" as="sourcePoint" />
+            <mxPoint x="830" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-15" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CRI&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;container runtime interface&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;1、kubectl通过cri规范与容器运行时交互&lt;/div&gt;&lt;div&gt;2、cri规范主要定义两个gRPC服务&lt;/div&gt;&lt;div&gt;2.1、ImageService：镜像的操作，拉取、查看、删除&lt;/div&gt;&lt;div&gt;2.2、RuntimeService：实现pod、容器的生命周期管理以及与容器的交互（exec/attach/port-forward）&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-400" width="310" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="3Vg7I-b_KU2aMFhzw3Iw-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="20" as="sourcePoint" />
+            <mxPoint x="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Vg7I-b_KU2aMFhzw3Iw-19" value="kube-proxy" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="980" y="40" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
