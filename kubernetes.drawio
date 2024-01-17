@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T14:20:26.892Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Pg3Mqvwqnpdej9uLtYl5" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T14:31:42.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pl82DKiExibgjSE8n-Nr" version="22.1.18" type="github">
   <diagram name="第 1 页" id="5bnzdSQ7di5Hu-kQCLIl">
     <mxGraphModel dx="2261" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,10 +85,10 @@
         <mxCell id="RGVM73bukpCADxqD2Ha--4" value="kubelet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="40" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4fE5z4UuduPDfiOcLxdn-5" value="&lt;h1&gt;kubelet&lt;/h1&gt;&lt;div&gt;与kube-apiserver交互，list-watch机制&lt;/div&gt;&lt;div&gt;1、监听资源的增、删、改&lt;/div&gt;&lt;div&gt;2、上报pod的信息、状态&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="750" y="-180" width="220" height="100" as="geometry" />
+        <mxCell id="4fE5z4UuduPDfiOcLxdn-5" value="&lt;h1&gt;kubelet&lt;/h1&gt;&lt;div&gt;与kube-apiserver交互，list-watch机制&lt;/div&gt;&lt;div&gt;1、注册自身到api-server&lt;/div&gt;&lt;div&gt;2、通过apiserver监听etcd目录下资源的增、删、改&lt;/div&gt;&lt;div&gt;3、上报pod的信息、状态&lt;/div&gt;&lt;div&gt;4、通过cAdvisor监控容器和节点的资源&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="750" y="-200" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="4fE5z4UuduPDfiOcLxdn-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RGVM73bukpCADxqD2Ha--4" target="4fE5z4UuduPDfiOcLxdn-5" edge="1">
+        <mxCell id="4fE5z4UuduPDfiOcLxdn-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF3333;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RGVM73bukpCADxqD2Ha--4" target="4fE5z4UuduPDfiOcLxdn-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="-30" as="sourcePoint" />
             <mxPoint x="830" y="-80" as="targetPoint" />
