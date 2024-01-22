@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T16:39:24.218Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="XRxxNJ1wIvuyn9a8HQjX" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T16:58:03.875Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mF4hZuGtViP6PZQwJRQD" version="22.1.21" type="github">
   <diagram name="第 1 页" id="VcTGC_0ALSRAaAG4vHXl">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,8 +169,8 @@
             <mxPoint x="470" y="1230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FDSydZNx9eT348Bdh0g4-61" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;coredns&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;替代了之前的三个服务， 功能更丰富， 性能更好&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="1130" width="200" height="110" as="geometry" />
+        <mxCell id="FDSydZNx9eT348Bdh0g4-61" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;coredns&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;替代了之前的三个服务， 功能更丰富， 性能更好&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;链式插件、Kubernetes Node本地DNS缓存&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1130" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FDSydZNx9eT348Bdh0g4-62" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;DNS缓存&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="1200" width="70" height="50" as="geometry" />
