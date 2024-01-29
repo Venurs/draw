@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T15:20:21.395Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="H67CV5T8gBYCXQIpeDWA" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T15:44:03.629Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2unsdahxCqQCR-K8nckd" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Q8KZJzh6ABpq3DSyVuZt">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ks_degdZmFdMqEcX4CP4-1" target="Ks_degdZmFdMqEcX4CP4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-1" value="&lt;h1&gt;虚拟网桥&lt;/h1&gt;&lt;p&gt;设备对. flannel使用该方案&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="220" width="320" height="70" as="geometry" />
+          <mxGeometry x="90" y="220" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-2" value="kubernetes network model" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-220" y="50" width="300" height="70" as="geometry" />
@@ -15,6 +18,9 @@
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-4" value="&lt;h1&gt;硬件交换&lt;/h1&gt;&lt;p&gt;为每个pod分配一个虚拟网卡， sr-lov功能， 将单一的物理网卡虚拟成多个vf借口， 每个vf都有单独虚拟的PCle通道， 虚拟网卡共用物理网卡的PCle通道。 绕过os、内核。性能较高&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="440" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-5" value="&lt;h1&gt;vxlan&lt;/h1&gt;&lt;p&gt;解决不同主机之间的通信问题， 可以在内核空间对报文进行封装&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
