@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T15:09:53.114Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5HhtK_UJ-CMCsx3cYbgV" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T15:20:21.395Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="H67CV5T8gBYCXQIpeDWA" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Q8KZJzh6ABpq3DSyVuZt">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ks_degdZmFdMqEcX4CP4-1" value="&lt;h1&gt;虚拟网桥&lt;/h1&gt;&lt;p&gt;设备对.&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-1" value="&lt;h1&gt;虚拟网桥&lt;/h1&gt;&lt;p&gt;设备对. flannel使用该方案&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="220" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-2" value="kubernetes network model" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=22;" vertex="1" parent="1">
