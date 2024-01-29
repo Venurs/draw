@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T16:05:27.477Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hgZiDnbMzVE83nq5_zQx" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T16:10:36.923Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="y0glvQCdPEw0IiA76xi0" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Q8KZJzh6ABpq3DSyVuZt">
     <mxGraphModel dx="2261" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,6 +10,12 @@
         <mxCell id="Ks_degdZmFdMqEcX4CP4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ks_degdZmFdMqEcX4CP4-1" target="Ks_degdZmFdMqEcX4CP4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ks_degdZmFdMqEcX4CP4-1" target="Ks_degdZmFdMqEcX4CP4-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ks_degdZmFdMqEcX4CP4-1" target="Ks_degdZmFdMqEcX4CP4-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-1" value="&lt;h1&gt;虚拟网桥&lt;/h1&gt;&lt;p&gt;设备对. flannel使用该方案&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="-700" width="320" height="90" as="geometry" />
         </mxCell>
@@ -17,7 +23,7 @@
           <mxGeometry x="-240" y="-870" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-3" value="&lt;h1&gt;多路复用&lt;/h1&gt;&lt;p&gt;ipvlan， 使用中间网络设备，暴露多个虚拟网卡接口， 容器网卡都可以接入这个中间设备&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="-550" width="320" height="90" as="geometry" />
+          <mxGeometry x="70" y="-560" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-4" value="&lt;h1&gt;硬件交换&lt;/h1&gt;&lt;p&gt;为每个pod分配一个虚拟网卡， sr-lov功能， 将单一的物理网卡虚拟成多个vf借口， 每个vf都有单独虚拟的PCle通道， 虚拟网卡共用物理网卡的PCle通道。 绕过os、内核。性能较高&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="-430" width="320" height="110" as="geometry" />
@@ -277,6 +283,12 @@
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-86" value="VxLAN Tunnel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="294" y="530" width="256" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-87" value="&lt;h1&gt;IPIP&lt;/h1&gt;&lt;div&gt;虚拟扩展本地区域网络， 增加IP层&lt;/div&gt;&lt;p&gt;解决不同主机之间的通信问题， 可以在内核空间对报文进行封装&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-810" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-88" value="&lt;h1&gt;HOST-GW&lt;/h1&gt;&lt;div&gt;无需封装， 暴露路由表&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-570" width="370" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
