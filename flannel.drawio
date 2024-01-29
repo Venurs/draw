@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T16:21:19.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fpz1NZtnuq0gtVhjB-i_" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T16:21:39.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="M-1a8JElfD35DJUT11jB" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Q8KZJzh6ABpq3DSyVuZt">
     <mxGraphModel dx="2261" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,7 +292,7 @@
         <mxCell id="Ks_degdZmFdMqEcX4CP4-86" value="VxLAN Tunnel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="294" y="530" width="256" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ks_degdZmFdMqEcX4CP4-87" value="&lt;h1&gt;IPIP&lt;/h1&gt;&lt;div&gt;虚拟扩展本地区域网络， 增加IP层&lt;/div&gt;&lt;p&gt;解决不同主机之间的通信问题， 可以在内核空间对报文进行封装&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ks_degdZmFdMqEcX4CP4-87" value="&lt;h1&gt;IPIP&lt;/h1&gt;&lt;div&gt;虚拟扩展本地区域网络， 增加IP层，三层网络&lt;/div&gt;&lt;p&gt;解决不同主机之间的通信问题， 可以在内核空间对报文进行封装&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="-810" width="370" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Ks_degdZmFdMqEcX4CP4-88" value="&lt;h1&gt;HOST-GW&lt;/h1&gt;&lt;div&gt;无需封装， 暴露路由表&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
